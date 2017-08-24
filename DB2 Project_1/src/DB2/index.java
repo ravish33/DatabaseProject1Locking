@@ -1,13 +1,11 @@
-package DB2;
 
-
-public class index {
+public class Index {
 	public static void main(String[] args) throws Exception {
 		
-		String fileName = "D:/IP2.txt";
-		processFile file = new processFile();
+		String fileName = "D:/Input.txt";  // A text file with all transaction details.
+		ProcessFile file = new ProcessFile();
 		file.readFile(fileName);
-		TransactionTable tt = new TransactionTable();
+		//TransactionTable tt = new TransactionTable();
 		
 			
 	}

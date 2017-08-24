@@ -1,4 +1,4 @@
-package DB2;
+
 import java.io.File;
 import java.util.*;
 import java.io.FileNotFoundException;
@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 
 
-public class processFile {
+public class ProcessFile {
 	Hashtable transaction = new Hashtable();
 	Hashtable<Character, LockTable> lock = new Hashtable();
 	Enumeration<String> keys_transaction;

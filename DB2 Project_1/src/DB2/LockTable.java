@@ -1,4 +1,4 @@
-package DB2;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,24 +22,6 @@ public class LockTable {
 	}
 	public void setLockType(String lockType) {
 		this.lockType = lockType;
-	}
-	public List<String> getLockingTransactions() {
-		return lockingTransactions;
-	}
-	public void setLockingTransactions(List<String> lockingTransactions) {
-		this.lockingTransactions = lockingTransactions;
-	}
-	public List<String> getWaitingTransactions() {
-		return waitingTransactions;
-	}
-	public void setWaitingTransactions(List<String> waitingTransactions) {
-		this.waitingTransactions = waitingTransactions;
-	}
-	public int getNoOfReads() {
-		return noOfReads;
-	}
-	public void setNoOfReads(int noOfReads) {
-		this.noOfReads = noOfReads;
 	}
 	
 	

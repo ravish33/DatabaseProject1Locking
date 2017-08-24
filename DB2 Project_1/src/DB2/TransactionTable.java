@@ -1,4 +1,4 @@
-package DB2;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,18 +13,6 @@ public class TransactionTable {
 	public TransactionTable()
 	{
 		
-	}
-
-	public List<Character> getLockingItems() {
-		return lockingItems;
-	}
-
-	public void setLockingItems(List<Character> lockingItems) {
-		this.lockingItems = lockingItems;
-	}
-
-	public void setTimeStamp(int timeStamp) {
-		this.timeStamp = timeStamp;
 	}
 
 	public String getTransactionID() {
